@@ -1,6 +1,6 @@
 # rvirt-gpu
 
-Virtualization for GPU that allows you to run local GPU apps and the code is actually ran in the cloud
+Virtualization for GPU that allows you to run local GPU apps and the code is actually ran in the cloud.
 
 # Wiki
 
