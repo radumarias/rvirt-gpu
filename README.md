@@ -1,6 +1,6 @@
-# rgpu-decrypt
+# rvirt-gpu
 
-CUDA app that uses GPUDirect Storage to read and decrypt training data for training apps that run on GPU
+Virtualization for GPU that allows you to run local GPU apps and the code is actually ran in the cloud
 
 # Wiki
 
