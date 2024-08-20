@@ -13,4 +13,4 @@ Functionality:
 
 # Schema
 
-[![schema](website/resources/schema.png)](website/resources/schema2.png)
+[![schema](website/resources/schema2.png)](website/resources/schema2.png)
