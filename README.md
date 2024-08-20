@@ -4,8 +4,12 @@ Virtualization for `GPU` that allows you to run local `GPU` apps and the code is
 
 Functionality:
 - `vGPU` is a `virtualization` layer for a `GPU`
-- your app "runs" on local `vGPU`
-- which sends the (`CUDA`) instructions to the remote `GPU-Coortinator`
+- your local app "runs" on local `vGPU`
+- local app decrypts the actual local data and sends the (`CUDA`) instructions to the remote `GPU-Coortinator`
+- `GPU-Coortinator` distribute the instructions to multiple real `GPU`s
+- then it sends the results back to `vGPU` which sends them to the local app
+
+**The advantage is your private data never leave your network in plain.**
 
 # Wiki
 
