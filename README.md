@@ -8,4 +8,4 @@ CUDA app that uses GPUDirect Storage to read and decrypt training data for train
 
 # Schema
 
-[![schema](website/resources/schema.png)](website/resources/schema.png)
+[![schema](website/resources/schema.png)](website/resources/schema2.png)
