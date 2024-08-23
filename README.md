@@ -2,7 +2,8 @@
 
 Virtualization for `GPU` that allows you to run local `GPU` apps and the code is actually ran in the cloud, keeping your data local, without changing your app, at least not much.
 
-Functionality:
+# Functionality
+
 - `vGPU` is a `virtualization` layer for a `GPU`
 - your local app "runs" on local `vGPU`
 - local app decrypts the actual local data and sends the (`CUDA`) instructions to the remote `GPU-Coordinator`
@@ -14,6 +15,12 @@ Three advatages emerge:
 - You can execute `AI` models without haing a local `GPU`
 - Execute on multiple `GPUs`, in the end, for some use cases, it could be faster than running on a local `GPU`
 - Execute `ML` models without storing your data on `untrusted` providers. It will keep some blocks in `memory` which are needed for executing current `instructions`. But at least they are `obfruscated` and `protected` by OS not to be easily copied by other `processes` from memory. `Data in transit` is `secured` by `TLS`
+
+# Cons
+
+- I know it will be slow, but in cases where the data flow is small compared to processing time it could be a reasonable compromise for the security it gives you
+- Also because the instructions are distributed to multiple `GPUs`, when possible, it could offer a better performance, in some cases, than locally
+
 
 # Wiki
 
