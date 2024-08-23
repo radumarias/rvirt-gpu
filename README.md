@@ -9,7 +9,7 @@ Functionality:
 - `GPU-Coortinator` distribute the instructions to multiple real `GPU`s
 - then it sends the results back to `vGPU` which sends them to the local app
 
-**The advantage is your private data never leave your network in plain. Only actual GPU instructions (CUDA instructions) are sent over the wire but encrypted with TLS.**
+**The advantage is your private data never leaves  your network in plain. Only actual GPU instructions (CUDA instructions) are sent over the wire but encrypted with TLS.**
 
 # Wiki
 
