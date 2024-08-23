@@ -1,6 +1,6 @@
 # rvirt-gpu
 
-Virtualization for `GPU` that allows you to run local `GPU` apps and the code is actually ran in the cloud, keeping your data local, without changing your app, much.
+Virtualization for `GPU` that allows you to run local `GPU` apps and the code is actually ran in the cloud, keeping your data local, without changing your app, at least not much.
 
 Functionality:
 - `vGPU` is a `virtualization` layer for a `GPU`
