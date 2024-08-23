@@ -11,9 +11,9 @@ Functionality:
 
 Three advatages emerge:
 
-- You can execute AI models without haing a local GPU
-- Execute on multiple GPUs, in the end, for some use cases, it could be faster than running on a local GPU
-- Execute ML models without storing your data on untrusted providers. It will keep some blocks in memory which are needed for executing current instructions, but at least they are obfruscated and protected by OS not to be easily copied by other processes from memory. Data in transit is secured by TLS
+- You can execute `AI` models without haing a local `GPU`
+- Execute on multiple `GPUs`, in the end, for some use cases, it could be faster than running on a local `GPU`
+- Execute `ML` models without storing your data on `untrusted` providers. It will keep some blocks in `memory` which are needed for executing current `instructions`. But at least they are `obfruscated` and `protected` by OS not to be easily copied by other `processes` from memory. `Data in transit` is `secured` by `TLS`
 
 # Wiki
 
