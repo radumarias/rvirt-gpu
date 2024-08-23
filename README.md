@@ -10,11 +10,11 @@ Virtualization for `GPU` that allows you to run local `GPU` apps and the code is
 - `GPU-Coordinator` distribute the instructions to multiple real `GPU`s
 - then it sends the results back to `vGPU` which sends them to the local app
 
-Three advatages emerge:
+Three advantages emerge:
 
-- You can execute `AI` models without haing a local `GPU`
+- You can execute `AI` models without having a local `GPU`
 - Execute on multiple `GPUs`, in the end, for some use cases, it could be faster than running on a local `GPU`
-- Execute `ML` models without storing your data on `untrusted` providers. It will keep some blocks in `memory` which are needed for executing current `instructions`. But at least they are `obfruscated` and `protected` by OS not to be easily copied by other `processes` from memory. `Data in transit` is `secured` by `TLS`
+- Execute `ML` models without storing your data on `untrusted` providers. It will keep some blocks in `memory` which are needed for executing current `instructions`. But at least they are `obfuscated` and `protected` by OS not to be easily copied by other `processes` from memory. `Data in transit` is `secured` by `TLS`
 
 # Cons
 
