@@ -18,3 +18,7 @@ Functionality:
 # Schema
 
 [![schema](website/resources/schema2.png)](website/resources/schema2.png)
+
+# Credits
+
+The main idea is of [Andrei Mărcuţ](https://github.com/andreimarcut).
