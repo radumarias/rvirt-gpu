@@ -21,14 +21,13 @@ Three advantages emerge:
 - I know it will be slow, but in cases where the data flow is small compared to processing time it could be a reasonable compromise for the security it gives you
 - Also because the instructions are distributed to multiple `GPUs`, when possible, it could offer a better performance, in some cases, than locally
 
+# Schema
+
+[![schema](website/resources/schema2.png)](website/resources/schema2.png)
 
 # Wiki
 
 [Wiki](https://github.com/radumarias/rgpu/wiki)
-
-# Schema
-
-[![schema](website/resources/schema2.png)](website/resources/schema2.png)
 
 # Credits
 
