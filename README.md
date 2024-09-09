@@ -2,6 +2,11 @@
 
 Virtualization for `GPU` that allows you to run local `GPU` apps and the code is actually ran in the cloud, keeping your data local, without changing your app, at least not much.
 
+> [!WARNING]  
+> **This is still under development. Please do not use it with sensitive data for now, please wait for a
+stable release.  
+> It's mostly ideal for experimental and learning projects.**
+
 # Functionality
 
 - `vGPU` is a `virtualization` layer for a `GPU`
